@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid black;
+}
+
+.navbar__links {
+  width: 100%;
+  height: 65%;
+}
+
+.navbar__links li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.navbar__links a {
+  width: 60%;
+  margin: 10px;
+  line-height: 35px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar__links a:hover {
+  background-color: yellow;
+}
+
+.navbar__logos {
+  width: 80%;
+  margin: auto;
+  padding-top: 90px;
+  border-top: 5px solid black;
+  display: flex;
+}
+
+.navbar__logos img {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+
+.navbar__footer {
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  margin-bottom: 60px;
+}
+
+.description {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.description__image {
+  width: 38%;
+  height: 320px;
+  margin: 180px 0 200px 50px;
+  background-color: yellow;
+}
+
+.description__image img {
+  width: 350px;
+  height: 420px;
+  padding: 15px;
+  margin-top: -50px;
+  margin-left: 15px;
+  border: 9px solid black;
+}
+
+.description__text {
+  width: 55%;
+  height: 320px;
+  padding: 20px;
+  margin: 180px 0 200px 50px;
+}
+
+.description__text h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+}
+
+.description__text hr {
+  width: 30%;
+  border: 5px solid black;
+}
+
+.description__text p {
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.description__text span {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 55px;
+  letter-spacing: 0.5px;
+}
