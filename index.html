@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/1673782735.ico"
+    />
     <link rel="stylesheet" href="styles.css" />
+
     <title>CV Web</title>
   </head>
   <body>
@@ -13,20 +19,30 @@
       <div class="navbar">
         <div class="navbar__links">
           <ul>
-            <li><a href="#">Sobre Mi</a></li>
-            <li><a href="#">Proyectos</a></li>
+            <li><a href="#aboutme">Sobre Mi</a></li>
             <li><a href="#">Experiencia</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#">Educación</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
         </div>
 
         <div class="navbar__logos">
-          <a href="#"><img src="/assets/Logo Facebook.svg" /></a>
-          <a href="#"><img src="/assets/Logo IG.svg" /></a>
-          <a href="#"><img src="/assets/Logo LinkedIn.svg" /></a>
-          <a href="#"><img src="/assets/Logo Twitter.svg" /></a>
-          <a href="#"><img src="/assets/Logo YouTube.svg" /></a>
+          <a href="https://es-la.facebook.com/" target="_blank"
+            ><img src="/assets/Logo Facebook.svg"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="/assets/Logo IG.svg"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="/assets/Logo LinkedIn.svg"
+          /></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"
+            ><img src="/assets/Logo Twitter.svg"
+          /></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img src="/assets/Logo YouTube.svg"
+          /></a>
         </div>
         <div class="navbar__footer">
           <p>
@@ -49,11 +65,11 @@
 
         <div class="description__text">
           <h1>WEBSITE DEVELOPER</h1>
-          <hr />
+          <hr noshade />
           <p>
             <b>
-              Profesional UX/UI y Desarrolladora Web. Actualmente viviendo en
-              Buenos Aires, Argentina.</b
+              Diseño y codeo cosas hermosas y sencillas, y me encanta lo que
+              hago!</b
             >
           </p>
           <br />
@@ -61,5 +77,174 @@
         </div>
       </div>
     </div>
+
+    <!-- ABOUT ME -->
+    <div id="aboutme">
+      <div>
+        <h2>Hola, soy Felicia. Encantada de conocerte.</h2>
+        <p>
+          Desde que comencé mi viaje como diseñadora independiente hace más de
+          11 años, he realizado trabajos remotos para agencias, asesorado a
+          nuevas empresas y colaborado con personas talentosas para crear
+          productos digitales para uso comercial y de consumo. Soy curiosa y
+          trabajo perpetuamente para mejorar mis habilidades, un problema de
+          diseño a la vez.
+        </p>
+      </div>
+    </div>
+    <section class="skills">
+      <div class="container">
+        <div class="container__column">
+          <span><img src="/assets/Logo Diseñador.svg" /></span>
+          <h1>Designer</h1>
+          <p>
+            Valoro la estructura de contenido simple, los patrones de diseño
+            limpios y las interacciones bien pensadas.
+          </p>
+          <p class="container__column__text_color">Things I enjoy designing:</p>
+          <p>UX, UI, Web, Apps, Logos</p>
+          <p class="container__column__text_color">Design Tools:</p>
+          <ul>
+            <li>Affinity Designer</li>
+            <li>Figma</li>
+            <li>Font Awesome</li>
+            <li>Pen &amp; Paper</li>
+            <li>Sketch</li>
+            <li>Webflow</li>
+          </ul>
+        </div>
+        <div class="container__column">
+          <span><img src="/assets/Logo Dev Frontend.svg" /></span>
+          <h1>Frontend Developer</h1>
+          <p>
+            Me gusta codear cosas desde cero y disfruto dando vida a las ideas
+            en el navegador.
+          </p>
+          <p class="container__column__text_color">Languages I speak:</p>
+          <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+          <p class="container__column__text_color">Dev Tools:</p>
+          <ul>
+            <li>Atom</li>
+            <li>Bitbucket</li>
+            <li>Bootstrap</li>
+            <li>Bulma</li>
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Surge</li>
+            <li>Terminal</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
+        <div class="container__column">
+          <span><img src="/assets/Logo Mentor.svg" /></span>
+          <h1>Mentor</h1>
+          <p>
+            Realmente me preocupo por las personas y me encanta ayudar a otros
+            diseñadores a trabajar en su oficio.
+          </p>
+          <p class="container__column__text_color">Experiences I draw from:</p>
+          <p>UX/UI, Product design, Freelancing</p>
+          <p class="container__column__text_color">Mentor Stats:</p>
+          <ul>
+            <li>7 years experience</li>
+            <li>26 short courses</li>
+            <li>65 bootcamps</li>
+            <li>200+ students</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <h1 class="portfolio__titulo">Mis Trabajos Recientes</h1>
+    <h2 class="portfolio__subtitulo">
+      Aquí hay algunos proyectos de diseño anteriores en los que he trabajado.
+      ¿Quieres ver más?
+      <a href="mailto:nataliamachella@gmail.com"
+        >Envíame un correo electrónico.</a
+      >
+    </h2>
+    <section id="portfolio">
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen de prueba.jpg" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen_de_prueba2.png" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen_de_prueba3.png" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen_de_prueba4.png" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen_de_prueba5.png" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+      <div class="portfolio__proyecto">
+        <figure>
+          <img src="/assets/imagen_de_prueba6.png" alt="imagen de proyecto" />
+          <div class="proyecto__texto">
+            <h2>Título del Proyecto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              corporis impedit doloremque exercitationem?
+            </p>
+            <a href="https://www.google.com/" target="_blank">Website</a>
+          </div>
+        </figure>
+      </div>
+    </section>
+    <a href="https://github.com/nataliamachella" class="portfolio__boton">
+      Puedes ver más en mi Github</a
+    >
   </body>
 </html>
