@@ -9,7 +9,7 @@
 
 .container {
   display: flex;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(20, 28, 57, 0.9);
 }
 
 .navbar {
@@ -17,7 +17,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  border-right: 5px solid black;
+  border-right: 5px solid rgba(20, 28, 57, 0.9);
 }
 
 .navbar__links {
@@ -37,7 +37,7 @@
   margin: 10px;
   line-height: 35px;
   text-align: center;
-  color: black;
+  color: rgba(20, 28, 57, 0.9);
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -50,7 +50,7 @@
   width: 80%;
   margin: auto;
   padding-top: 90px;
-  border-top: 5px solid black;
+  border-top: 5px solid rgba(20, 28, 57, 0.9);
   display: flex;
 }
 
@@ -87,7 +87,7 @@
   padding: 15px;
   margin-top: -50px;
   margin-left: 15px;
-  border: 9px solid black;
+  border: 9px solid rgba(20, 28, 57, 0.9);
 }
 
 .description__text {
@@ -164,7 +164,7 @@
   border: 0.1px solid rgb(187, 186, 186);
   border-radius: 10px;
   width: 30%;
-  color: black;
+  color: rgba(20, 28, 57, 0.9);
   background-color: white;
   font-family: "Outfit", sans-serif;
   font-size: 18px;
@@ -191,7 +191,7 @@
 }
 
 #portfolio {
-  margin: 60px 80px 30px;
+  margin: 60px 80px 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -207,6 +207,7 @@
 }
 
 .portfolio__subtitulo {
+  font-family: "Outfit", sans-serif;
   font-size: 18px;
   font-weight: 100;
   text-align: center;
@@ -281,17 +282,173 @@
 }
 
 .portfolio__boton {
-  margin: 30px;
-  border-radius: 25px;
+  margin: 50px 600px;
+  border-radius: 30px;
   padding: 10px;
   color: #608fb3;
   border: 3px solid #608fb3;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
 }
 
 .portfolio__boton:hover {
   background-color: #608fb3;
   color: white;
+}
+
+#mentoria {
+  margin: 70px auto;
+  padding: 30px 200px;
+}
+#mentoria h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 850px;
+  height: 100px;
+  margin-left: 100px;
+  color: rgba(20, 28, 57, 0.9);
+}
+
+#mentoria img {
+  margin: 0 350px 30px;
+}
+
+.mentoria__container {
+  display: flex;
+}
+
+.mentoria__container__label_input {
+  display: inline-flex;
+}
+
+.mentoria__container form {
+  font-family: "Outfit", sans-serif;
+  font-size: 19px;
+  color: rgba(41, 51, 71, 0.65);
+  margin-left: 200px;
+}
+
+.mentoria__container__label label {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+}
+
+.mentoria__container__input input {
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+.mentoria__container_message {
+  margin-top: 10px;
+}
+.mentoria__container_message label {
+  margin: 10px;
+}
+.mentoria__container_message textarea {
+  width: 620px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+.mentoria__container button {
+  margin-top: 30px;
+  margin-left: 200px;
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: #608fb3;
+  border: 3px solid #608fb3;
+  font-size: 20px;
+}
+.mentoria__container button:hover {
+  color: white;
+  background-color: #608fb3;
+}
+
+#experiencia h1 {
+  width: 570px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 80px;
+  font-size: 32px;
+}
+.experiencia__logos {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+#contacto {
+  width: 100%;
+  height: 100vh;
+}
+
+.contacto__head {
+  width: 90%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #141c3a;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  margin-left: 80px;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.contacto__head h1 {
+  font-size: 32px;
+}
+
+.contacto__head p {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.contacto__head a {
+  text-decoration: none;
+  color: white;
+  background-color: #608fb3;
+  padding: 10px;
+  border-radius: 30px;
+  border: 3px solid #608fb3;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+}
+.contacto__head a:hover {
+  background-color: white;
+  color: #141c3a;
+}
+
+.contacto__logos {
+  background-color: #608fb3;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -90px;
 }
